@@ -9,13 +9,13 @@ Também conhecida como criptografia de chave pública, essa forma de criptografi
 <div align="center">
 <img src="./../../imagens/Public-key-crypto-1.svg" alt="Par de chaves pública-privada">
 
-Figura: [Wikipedia, 2025](./../../imagens/README.md#public-key-crypto-1svg)
+<p>Figura: <a href="./../../imagens/#public-key-crypto-1svg">Wikipedia, 2025</a></p>
 
 </div>
 
 Pares de chaves para criptografia assimétrica são computados usando **funções** (matemáticas) **unidirecionais** (*one-way functions*). [^1]
 
-Funções unidirecionais são funções fáceis de calcular em uma direção (dado `x`, calcular `f(x)`), porém computacionalmente inviáveis de inverter (dado `f(x)`, obter `x`). [^2]
+Funções unidirecionais são funções fáceis de calcular em uma direção (dado `x`, calcular `f(x)`), porém computacionalmente inviáveis de inverter (dado `f(x)`, obter `x`). *Hashes* são uma entre outras classes de funções unidirecionais.
 
 **Para garantir a segurança dos algoritmos de criptografia assimétrica é importante que a chave privada não seja compartilhada.**
 
@@ -25,7 +25,7 @@ Funções unidirecionais são funções fáceis de calcular em uma direção (da
 
 <img src="./../../imagens/Public_key_encryption.svg" alt="Cifragem usando public key">
 
-Figura: [Wikipedia, 2025](./../../imagens/README.md#public_key_encryptionsvg)
+<p>Figura: <a href="./../../imagens/#public_key_encryptionsvg">Wikipedia, 2025</a></p>
 
 </div>
 
@@ -37,11 +37,11 @@ Figura: [Wikipedia, 2025](./../../imagens/README.md#public_key_encryptionsvg)
 
 <img src="./../../imagens/Private_key_signing.svg" alt="Assinatura usando chave assimétrica">
 
-Figura: [Wikipedia, 2025](./../../imagens/README.md#private_key_signingsvg)
+<p>Figura: <a href="./../../imagens/#private_key_signingsvg">Wikipedia, 2025</a></p>
 
 </div>
 
-> Alice pode usar sua chave privada para assinar um conteúdo, assim Bob poderá conferir se aquele **exato conteúdo** foi **enviado pela Alice**. [^3]
+> Alice pode usar sua chave privada para assinar um conteúdo, assim Bob poderá conferir se aquele **exato conteúdo** foi **enviado pela Alice**.
 
 1. Alice assina o conteúdo original com sua chave privada.
 1. Alice envia para Bob o conteúdo original juntamente com a assinatura gerada.
@@ -55,4 +55,3 @@ Isso é possível pois a chave privada da Alice pertence somente a ela. Se outra
 ---
 
 [^1]: [en.wikipedia.org/wiki/Public-key_cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography#:~:text=Key%20pairs%20are%20generated%20with%20cryptographic%20algorithms%20based%20on%20mathematical%20problems%20termed%20one%2Dway%20functions.)
-[^2]: *Hashes* são exemplos de uma classe de funções unidirecionais. 
